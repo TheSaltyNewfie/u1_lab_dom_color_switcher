@@ -1,0 +1,1 @@
+['red', 'white', 'blue', 'yellow'].forEach(color => document.querySelector(`.${color}`).addEventListener('click', () => document.body.style.backgroundColor = color));
